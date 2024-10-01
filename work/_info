@@ -1,0 +1,73 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.1_2 2022.04, Apr  2 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/ubc/ece/home/ugrads/y/ywang424/practice_mt1_Q1
+T_opt
+!s110 1727819878
+V6`1>lH86SG@Y>?chdF<`c2
+04 8 4 work tb_task1 fast 0
+=1-005056019ece-66fc7066-80d24-36cd68
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work -L /CMC/tools/altera/19.1/modelsim_ase/altera/verilog/altera_mf -L /CMC/tools/altera/17.0/modelsim_ase/altera/verilog/cyclonev
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2022.1_2;75
+vtask1
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1727819862
+!i10b 1
+!s100 DfIDZ5JJZgL0WFR74UoOH2
+I0fTc<OZ1VV5zV?[7<k2Nf0
+S1
+R1
+Z5 w1727819486
+8task1.sv
+Ftask1.sv
+!i122 0
+L0 1 39
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2022.1_2;75
+r1
+!s85 0
+31
+Z8 !s108 1727819862.000000
+Z9 !s107 tb_task1.sv|task1.sv|
+Z10 !s90 -l|tb_task1.rtl-vlog.rpt|-cover|bts|-sv|task1.sv|tb_task1.sv|
+!i113 0
+Z11 !s102 -cover bts
+Z12 o-cover bts -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_task1
+R3
+R4
+!i10b 1
+!s100 PZ7KhVCMbdW6YCT]_<OD_0
+IzF5k06d7gATJbR:5ho:KA0
+S1
+R1
+R5
+8tb_task1.sv
+Ftb_task1.sv
+!i122 0
+L0 1 29
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R2
