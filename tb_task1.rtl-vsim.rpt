@@ -1,6 +1,6 @@
-# vsim -L /CMC/tools/altera/19.1/modelsim_ase/altera/verilog/altera_mf -L /CMC/tools/altera/17.0/modelsim_ase/altera/verilog/cyclonev -l tb_task1.rtl-vsim.rpt -c -coverage -do "run 1000000; coverage report -detail -output tb_task1.stat.rpt; quit" tb_task1 
-# Start time: 15:14:49 on Oct 01,2024
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# vsim -L /CMC/tools/altera/19.1/modelsim_ase/altera/verilog/altera_mf -L /CMC/tools/altera/17.0/modelsim_ase/altera/verilog/cyclonev -l tb_task1.rtl-vsim.rpt -c -coverage -do "run 1000000; coverage report -detail -output /ubc/ece/home/ugrads/y/ywang424/practice_mt1_Q1/tb_task1.stats.rpt; quit" tb_task1 
+# Start time: 15:56:17 on Oct 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  Questa Sim-64
 # //  Version 2022.1_2 linux_x86_64 Apr  2 2022
 # //
@@ -41,5 +41,5 @@
 # Simulation end time is (215 ps)
 # ** Note: $finish    : tb_task1.sv(126)
 #    Time: 245 ns  Iteration: 0  Instance: /tb_task1
-# End time: 15:14:51 on Oct 01,2024, Elapsed time: 0:00:02
+# End time: 15:56:19 on Oct 01,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0

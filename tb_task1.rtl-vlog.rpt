@@ -1,10 +1,10 @@
 QuestaSim-64 vlog 2022.1_2 Compiler 2022.04 Apr  2 2022
-Start time: 15:12:24 on Oct 01,2024
+Start time: 15:55:55 on Oct 01,2024
 vlog -l tb_task1.rtl-vlog.rpt -cover bts -sv task1.sv tb_task1.sv 
 -- Compiling module task1
 -- Compiling module tb_task1
 
 Top level modules:
 	tb_task1
-End time: 15:12:25 on Oct 01,2024, Elapsed time: 0:00:01
+End time: 15:55:56 on Oct 01,2024, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0
