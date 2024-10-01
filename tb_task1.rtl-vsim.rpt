@@ -1,6 +1,6 @@
-# vsim -L /CMC/tools/altera/19.1/modelsim_ase/altera/verilog/altera_mf -L /CMC/tools/altera/17.0/modelsim_ase/altera/verilog/cyclonev -l tb_task1.rtl-vsim.rpt -c -coverage -do "run 1000000; coverage report -detail -output tb_task1.stats.rpt; quit" tb_task1 
-# Start time: 14:57:58 on Oct 01,2024
-# ** Note: (vsim-3812) Design is being optimized...
+# vsim -L /CMC/tools/altera/19.1/modelsim_ase/altera/verilog/altera_mf -L /CMC/tools/altera/17.0/modelsim_ase/altera/verilog/cyclonev -l tb_task1.rtl-vsim.rpt -c -coverage -do "run 1000000; coverage report -detail -output tb_task1.stat.rpt; quit" tb_task1 
+# Start time: 15:14:49 on Oct 01,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # //  Questa Sim-64
 # //  Version 2022.1_2 linux_x86_64 Apr  2 2022
 # //
@@ -18,7 +18,28 @@
 # Loading sv_std.std
 # Loading work.tb_task1(fast)
 # run 1000000
-#  coverage report -detail -output tb_task1.stats.rpt
-#  quit
-# End time: 14:58:00 on Oct 01,2024, Elapsed time: 0:00:02
+# 
+# --- Test 1: E -> F by setting N=1 ---
+# --- Test 2: F -> G by setting N=0 ---
+# --- Test 3: G -> H by setting D=1 ---
+# --- Test 4: H -> E by setting D=0 & N=0 ---
+# --- Test 5: E -> H by setting D=1 ---
+# --- Test 6: H stays H by setting N=1 (D=1) ---
+# --- Test 7: H stays H by setting D=0 (N=1) ---
+# --- Test 8: H -> E by setting D=0 & N=0 ---
+# --- Test 9: E stays E by keeping N=0 & D=0 ---
+# --- Test 10: E -> F by setting N=1 (D=1 also set) ---
+# --- Test 11: F stays F by keeping N=1 ---
+# --- Test 12: F -> G by setting N=0 ---
+# --- Test 13: G stays G by setting D=0 & N=0 ---
+# --- Test 14: G -> H by setting N=1 ---
+# --- Test 15: H stays H by keeping D=1 & N=1 ---
+# --- Test 16: H stays H by setting D=0 & keeping N=1 ---
+# --- Test 17: H -> E by setting D=0 & N=0 ---
+# done at time (180 ps), ND V=1
+# V=0 @ 215
+# Simulation end time is (215 ps)
+# ** Note: $finish    : tb_task1.sv(126)
+#    Time: 245 ns  Iteration: 0  Instance: /tb_task1
+# End time: 15:14:51 on Oct 01,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
